@@ -33,6 +33,7 @@ void loop()
   knopStateO = digitalRead(knopOnder);
   if (knopStateO == HIGH)
   {
+    //Code voor knopjes boven onder met lift detectie
     digitalWrite(knopOnderLED, HIGH);
   }
   liftState = digitalRead(lift);
